@@ -58,12 +58,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            A skilled computer science graduate with expertise in web development and software engineering, proficient in languages like C++, Python, Java, C#, SQL, and Kotlin, along with web technologies such as HTML, CSS, JavaScript, Node.js, MongoDB, VITE, and technologies like Android development, WebRTC, and Socket.io, has honed skills through hands-on projects and academic pursuits. With practical experience in tools like PHP, WordPress, and MySQL, driven to excel and innovate in the ever-evolving tech landscape.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
