@@ -68,13 +68,7 @@ A skilled computer science graduate with expertise in web development and softwa
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
             >
-              {" "}
-              Education{" "}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
-            >
+              
               {" "}
               Certifications{" "}
             </TabButton>
