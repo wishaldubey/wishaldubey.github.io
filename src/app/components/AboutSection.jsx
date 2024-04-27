@@ -12,19 +12,16 @@ const TAB_DATA = [
         <li>Node.js</li>
         <li>Express</li>
         <li>PostgreSQL</li>
-        <li>Sequelize</li>
+        <li>MySQL</li>
         <li>JavaScript</li>
         <li>React</li>
-      </ul>
-    ),
-  },
-  {
-    title: "Education",
-    id: "education",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>Mongodb</li>
+        <li>WebRTC</li>
+        <li>Socket.io</li>
+        <li>Java</li>
+        <li>C/C++</li>
+        <li>Kotlin</li>
+        <li>Python</li>
       </ul>
     ),
   },
@@ -58,8 +55,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            A skilled computer science graduate with expertise in web development and software engineering, proficient in languages like C++, Python, Java, C#, SQL, and Kotlin, along with web technologies such as HTML, CSS, JavaScript, Node.js, MongoDB, VITE, and technologies like Android development, WebRTC, and Socket.io, has honed skills through hands-on projects and academic pursuits. With practical experience in tools like PHP, WordPress, and MySQL, driven to excel and innovate in the ever-evolving tech landscape.
-          </p>
+A skilled computer science graduate with expertise in web development and software engineering, proficient in various technologies and tools essential for modern development. With experience in a wide range of technologies such as web development frameworks, databases, and mobile application development platforms, I have honed my skills through hands-on projects and academic pursuits. Driven to excel and innovate in the ever-evolving tech landscape, I am committed to pushing the boundaries of what's possible in software development.          </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
