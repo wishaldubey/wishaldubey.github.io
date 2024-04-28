@@ -27,7 +27,7 @@ const achievementsList = [
   },
   {
     metric: "Years",
-    value: "almost 22(kal ho jaunga)",
+    metric: "almost 22(kal ho jaunga)",
   },
 ];
 
