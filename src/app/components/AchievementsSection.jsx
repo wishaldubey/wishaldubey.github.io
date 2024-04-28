@@ -26,7 +26,7 @@ const achievementsList = [
   },
   {
     metric: "Age",
-    value: "almost 22",
+    metric: "almost 22",
   },
 ];
 
