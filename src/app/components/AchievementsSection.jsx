@@ -11,22 +11,23 @@ const AnimatedNumbers = dynamic(
 
 const achievementsList = [
   {
-    metric: "Projects",
-    value: "100",
+    metric: "Indentity theft",
+    value: "10",
     postfix: "+",
   },
   {
-    prefix: "~",
-    metric: "Users",
-    value: "100,000",
+    metric: "Kills",
+    value: "529",
+    postfix: "+",
+
   },
   {
-    metric: "Awards",
-    value: "7",
+    metric: "Offence",
+    value: "50",
   },
   {
     metric: "Years",
-    value: "5",
+    value: "almost 22(kal ho jaunga)",
   },
 ];
 
