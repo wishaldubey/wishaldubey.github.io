@@ -50,28 +50,15 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png"           alt="A person working on a computer, symbolizing a web developer"
- width={500} height={500} />
+        <Image src="/images/about-image.png" alt="A person working on a computer, symbolizing a web developer" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-A skilled computer science graduate with expertise in web development and software engineering, proficient in various technologies and tools essential for modern development. With experience in a wide range of technologies such as web development frameworks, databases, and mobile application development platforms, I have honed my skills through hands-on projects and academic pursuits. Driven to excel and innovate in the ever-evolving tech landscape, I am committed to pushing the boundaries of what's possible in software development.          </p>
+            A skilled computer science graduate with expertise in web development and software engineering, proficient in various technologies and tools essential for modern development. With experience in a wide range of technologies such as web development frameworks, databases, and mobile application development platforms, I have honed my skills through hands-on projects and academic pursuits. Driven to excel and innovate in the ever-evolving tech landscape, I am committed to pushing the boundaries of what&apos;s possible in software development.
+          </p>
           <div className="flex flex-row justify-start mt-8">
-            <TabButton
-              selectTab={() => handleTabChange("skills")}
-              active={tab === "skills"}
-            >
-              {" "}
-              Skills{" "}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("education")}
-              active={tab === "education"}
-            >
-              
-              {" "}
-              Certifications{" "}
-            </TabButton>
+            <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>Skills</TabButton>
+            <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}>Certifications</TabButton>
           </div>
           <div className="mt-8">
             {TAB_DATA.find((t) => t.id === tab).content}
