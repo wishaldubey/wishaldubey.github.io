@@ -19,15 +19,14 @@ const achievementsList = [
     metric: "Kills",
     value: "529",
     postfix: "+",
-
   },
   {
     metric: "Offence",
     value: "50",
   },
   {
-    metric: "Years",
-    metric: "almost 22(kal ho jaunga)",
+    metric: "Age",
+    value: "almost 22",
   },
 ];
 
