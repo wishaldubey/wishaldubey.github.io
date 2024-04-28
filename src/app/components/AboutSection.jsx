@@ -47,6 +47,10 @@ const AboutSection = () => {
     });
   };
 
+  // Check if the tab exists in TAB_DATA
+  const tabData = TAB_DATA.find((t) => t.id === tab);
+  const content = tabData ? tabData.content : null;
+
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
@@ -58,10 +62,10 @@ const AboutSection = () => {
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>Skills</TabButton>
-            <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}>Certifications</TabButton>
+            <TabButton selectTab={() => handleTabChange("certifications")} active={tab === "certifications"}>Certifications</TabButton>
           </div>
           <div className="mt-8">
-            {TAB_DATA.find((t) => t.id === tab).content}
+            {content}
           </div>
         </div>
       </div>
