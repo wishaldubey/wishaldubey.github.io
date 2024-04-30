@@ -18,14 +18,14 @@ const achievementsList = [
   {
     metric: "Kills",
     value: "529",
-    postfix: "+",
+   
   },
   {
     metric: "Offence",
     value: "50",
   },
   {
-    metric: "Years",
+    metric: "Years Old",
     value: "22",
   },
 ];
